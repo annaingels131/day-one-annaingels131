@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway');
+
+
+
+/*-------UNIVERSALS-------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #eee;
+}
+
+h1, h2, h3, h4, h5, li, p{
+  font-family: 'Raleway', sans-serif;
+}
+
+/*---------------HEADER-- --------------*/
+.logo {
+  border: 2px solid #fff;
+  padding: 10px;
+  margin: 20px;
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Monoton', cursive;
+  float: left;
+
+}
+
+.vid {
+  background-image: url(http://idealog.co.nz/media/images/kitchen_ghosts_05.gif);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+/*---------------NAV----------------*/
+nav li {
+  display: inline;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+
+nav ul {
+  margin: 30px;
+  float: right;
+}
+
+
+/*---------------MISSION----------------*/
+.socialmedia {
+  color: #fff;
+  position: fixed;
+  margin: 10px;
+  bottom: 0;
+}
+
+
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1,
+.col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0;
+}
+
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+@media only screen and (max-width: 699px){
+  nav ul {
+    margin: 30px 10px;
+    font-size: 15px;
+    float: left;
+  }

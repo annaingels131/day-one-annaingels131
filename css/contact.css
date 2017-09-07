@@ -1,0 +1,29 @@
+.coffeeshop {
+  background-image: url(../img/coffeeshop.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.map {
+  float: right;
+}
+
+.findus {
+  color: #fff;
+}
+
+.findus h1 {
+  border-bottom: 2px solid #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .coffeeshop {
+    height: 1000px;
+  }
+
+
+}

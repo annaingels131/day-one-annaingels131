@@ -1,0 +1,50 @@
+/*----------NAV-----------*/
+
+.logo {
+  color: #000;
+  border: 2px solid #000;
+
+}
+
+nav li {
+  color: #000;
+}
+
+/*---------MISSION----------*/
+
+.mheader {
+  margin: 20px;
+  border-bottom: 2px solid #000;
+}
+
+
+
+
+.mission {
+  background-image: url(../img/coffee.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.mission p {
+  font-size: 20px;
+  background-color: rgba(215, 215, 215, 0.5);
+  margin: 20px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.row {
+  padding: 0;
+}
+
+
+@media only screen and (max-width:766px) {
+
+  .mission p {
+    font-size: 15px;
+  }
+
+
+}
